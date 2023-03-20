@@ -7,9 +7,6 @@
 //   (When one function has to wait for another function) 
 //   that helps us avoid errors and potential problems
 //   Ex. Wait for a file to load 
-
-
-// let total = sum(2, 3);
 // displayConsole(total);
 // displayDOM(total);
 
@@ -17,6 +14,9 @@
 //     let result = x + y;
 //     return result
 // }
+
+// let total = sum(2, 3);
+
 
 sum(2, 3,displayDOM);
 

@@ -6,7 +6,7 @@
 
 let car1 = {
     // properties = what an object has 
-    Name: "Mustang",
+    model: "Mustang",
     color: "red",
     year: 2023,
 
@@ -22,7 +22,7 @@ let car1 = {
 }
 let car2 = {
     // properties = what an object has 
-    Name: "Corvette",
+    model: "Corvette",
     color: "blue",
     year: 2024,
 
@@ -37,13 +37,13 @@ let car2 = {
     } 
 }
 
-console.log(typeof(car1.Name),car1.Name);
+console.log(typeof(car1.model),car1.model);
 console.log(typeof(car1.color),car1.color);
 console.log(typeof(car1.year), car1.year);
 
 car1.drive();
 car1.brake();
-console.log(typeof(car2.Name),car2.Name);
+console.log(typeof(car2.model),car2.model);
 console.log(typeof(car2.color),car2.color);
 console.log(typeof(car2.year), car2.year);
 
